@@ -22,6 +22,8 @@ export default function Salvos() {
   return (
     <div className='meus-filmes'>
       <h1>Meus Filmes</h1>
+
+      {filmes.length === 0 && (<span>Você ainda não salvou nenhum filme :( </span>)}
       <ul>
         {filmes.map((item) => {
           return (

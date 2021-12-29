@@ -22,10 +22,6 @@ export default function Filme() {
       setLoading(false);
     }
     loadFilme();
-
-    return () => {
-
-    }
   }, [history, id]);
 
   function salvaFilme() {
@@ -60,7 +56,7 @@ export default function Filme() {
 
       <div className='botoes'>
         <button onClick={()=>salvaFilme()}>Salvar</button>
-        <button onClick={() => { }}>
+        <button>
           <a target="blank" href={`https://youtube.com/results?search_query=${filme.nome} Trailer`}>
             Trailer
           </a>

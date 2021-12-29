@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './filme-info.css';
 import { useParams, useHistory } from 'react-router-dom';
 import api from '../../services/api';
+import { toast } from 'react-toastify';
 
 export default function Filme() {
   const { id } = useParams();
@@ -30,13 +31,13 @@ export default function Filme() {
     const hasFilme = filmesSalvos.some((filmesSalvo) => filmesSalvo.id === filme.id);
 
     if (hasFilme) {
-      alert("Filme já salvo");
+      toast.error('Filme já salvo !');
       return;
     }
 
     filmesSalvos.push(filme);
     localStorage.setItem('filmes', JSON.stringify(filmesSalvos));
-    alert('Filme salvo com sucesso');
+    toast.success('Filme salvo com sucesso !');
   }
 
   if (loading) {

@@ -12,17 +12,18 @@ header {
 .logo {
   text-decoration: none;
   font-size: 1.875rem;
-  color: #ffffff;
+  color: #2fb5cc;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .favoritos {
   cursor: pointer;
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: #2fb5cc;
+  color: #6D1F76;
   border-radius: 0.3125rem;
   padding: 0.3125rem;
   font-weight: bold;
-  color: #000000
 }
 

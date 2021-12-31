@@ -43,3 +43,8 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
+.lista-filmes article a:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}

@@ -7,6 +7,9 @@ header {
   background-color: #6D1F76;
   position: sticky;
   top: 0;
+  border: 4px;
+  border-style: solid none;
+  border-color: #2fb5cc;
 }
 
 .logo {

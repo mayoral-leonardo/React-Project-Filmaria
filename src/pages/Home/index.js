@@ -20,9 +20,11 @@ export default function Home() {
     <div className='container'>
       <div className='lista-filmes'>
         {filmes.map((filme) => {
-          return(
+          return (
             <article key={filme.id}>
-              <strong>{filme.nome}</strong>
+              <div className='article-title'>
+                <h1>{filme.nome}</h1>
+              </div>
               <img src={filme.foto} alt={filme.nome}></img>
               <Link to={`/filme/${filme.id}`}>Acessar</Link>
             </article>

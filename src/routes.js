@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
+import ScrollButton from './components/ScrollButton/scrollButton';
 import Home from './pages/Home';
 import Filme from './pages/Filme';
 import Salvos from './pages/Salvos';
@@ -15,6 +16,7 @@ const Routes = () => {
         <Route exact path="/salvos" component={Salvos}/>
         <Route path="*" component={Erro}/>
       </Switch>
+    <ScrollButton/>
     </BrowserRouter>
   )
 }

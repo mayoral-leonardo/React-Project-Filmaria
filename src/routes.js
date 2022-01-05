@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/Header/header';
 import ScrollButton from './components/ScrollButton/scrollButton';
-import Home from './pages/Home';
-import Filme from './pages/Filme';
-import Salvos from './pages/Salvos';
-import Erro from './pages/Erro';
+import Home from './pages/Home/home';
+import Filme from './pages/Filme/filme';
+import Salvos from './pages/Salvos/salvos';
+import Erro from './pages/Erro/erro';
 
 const Routes = () => {
   return (

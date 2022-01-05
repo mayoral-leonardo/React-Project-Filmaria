@@ -1,0 +1,8 @@
+.scroll-to-top-button{
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  font-size: 2.8rem;
+  color: #6D1F76 !important;
+}

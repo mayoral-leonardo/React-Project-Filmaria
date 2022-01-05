@@ -48,12 +48,11 @@
 
 .article-title {
   display: flex;
-  text-align: center;
   justify-content: center;
+  align-items: center;
   height: 53px;
   width: 100%;
   margin-top: 10px;
-  color: #ffffff;
   background-color: #6D1F76;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -62,4 +61,5 @@
 .article-title h1 {
   margin-top: 15px;
   font-weight: bold;
+  color: #ffffff;
 }

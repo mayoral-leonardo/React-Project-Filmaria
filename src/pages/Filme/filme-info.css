@@ -2,11 +2,29 @@
   display: flex;
   flex-direction: column;
   max-width: 900px;
+  margin-top: 10px;
 }
 
 .filme-info img{
   border-radius: 20px;
 }
+
+.filme-info h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.filme-info h3{
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.filme-info p{
+  font-size: 15px;
+  font-weight: 600;
+}
+
 
 .filme-info button{
   margin-right: 5px;
@@ -18,6 +36,7 @@
   outline: none;
   padding: 12px;
   transition: all 0.5s;
+  font-weight: bold;
 }
 
 .filme-info button:hover{

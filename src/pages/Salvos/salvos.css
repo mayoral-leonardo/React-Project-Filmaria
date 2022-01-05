@@ -30,6 +30,7 @@ button {
 
 ul li div a {
   text-decoration: none;
+  margin-right: 10px;
 }
 
 ul li div a:hover {

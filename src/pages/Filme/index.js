@@ -53,7 +53,7 @@ export default function Filme() {
       <img src={filme.foto} alt={filme.nome} />
 
       <h3>Sinopse</h3>
-      {filme.sinopse}
+      <p>{filme.sinopse}</p>
 
       <div className='botoes'>
         <button onClick={()=>salvaFilme()}>Salvar</button>

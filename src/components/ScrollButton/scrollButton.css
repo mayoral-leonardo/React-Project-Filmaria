@@ -6,3 +6,10 @@
   font-size: 2.8rem;
   color: #6D1F76 !important;
 }
+
+@media screen and (max-width: 800px) {
+  .scroll-to-top-button {
+    bottom: 1rem;
+    right: 1.5rem;  
+  }
+}

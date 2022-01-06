@@ -1,0 +1,8 @@
+/* 
+@phone-xs: ~"only screen and (max-width: 480px)";
+@phone-sm: ~"only screen and (max-width: 576px)";
+@tab-md: ~"only screen and (max-width: 768px)";
+@tab-lg: ~"only screen and (max-width: 992px)";
+@tab-xl: ~"only screen and (max-width: 1200px)";
+@desktop-xxl: ~"only screen and (max-width: 1600px)"; 
+*/

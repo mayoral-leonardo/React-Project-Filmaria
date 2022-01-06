@@ -63,3 +63,18 @@
   font-weight: bold;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 800px) {
+  .container{
+    width: 100vh;
+  }
+  .lista-filmes img {
+    width: 600px;
+  }
+  .article-title h1 {
+    font-size: 20px;
+  }
+  .lista-filmes article a {
+    font-size: 20px;
+  }
+}

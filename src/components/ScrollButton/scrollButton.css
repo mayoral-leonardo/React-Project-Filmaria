@@ -13,3 +13,10 @@
     right: 1.5rem;  
   }
 }
+
+@media screen and (max-width: 800px) {
+  .scroll-to-top-button {
+    bottom: 1rem;
+    right: 0.3rem;  
+  }
+}

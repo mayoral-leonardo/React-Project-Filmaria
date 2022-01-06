@@ -11,11 +11,11 @@ export default function Salvos() {
     setFilmes(JSON.parse(minhaLista) || []);
   }, [])
 
-  function handleDelete (id) {
-    let filtroFilmes = filmes.filter((item)=>{
+  function handleDelete(id) {
+    let filtroFilmes = filmes.filter((item) => {
       return (item.id !== id);
     })
-    
+
     setFilmes(filtroFilmes);
     localStorage.setItem('filmes', JSON.stringify(filtroFilmes));
     toast.success('Filme excluído com sucesso !')
@@ -30,7 +30,9 @@ export default function Salvos() {
         {filmes.map((item) => {
           return (
             <li key={item.id}>
-              <span>{item.nome}</span>
+              <div className='titulo'>
+                <span>{item.nome}</span>
+              </div>
               <div>
                 <Link to={`/filme/${item.id}`}>Ver Detalhes</Link>
                 <button onClick={() => handleDelete(item.id)}>Excluir</button>

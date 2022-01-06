@@ -1,9 +1,10 @@
 .meus-filmes {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  margin-top: 10px;
 }
 
 ul {
@@ -39,4 +40,24 @@ ul li div a {
 
 ul li div a:hover {
   color: #ff0000;
+}
+
+@media screen and (max-width: 500px) {
+  .titulo {
+     max-width: 140px;
+     max-height: 30px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+  }
+  ul li {
+    min-width: 0px;
+    width: 300px;
+  }
+  ul li span {
+    font-size: 16px;
+  }
+  span {
+    font-size: 20px;
+  }  
 }

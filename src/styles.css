@@ -7,8 +7,14 @@ body {
 
 .app {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+@media screen and (max-width: 800px) {
+    .app {
+      width: 100vw;
+    }
+  }

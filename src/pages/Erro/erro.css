@@ -27,3 +27,13 @@
   cursor: pointer;
   filter: brightness(80%);
 }
+
+@media screen and (max-width: 500px) {
+  .not-found h1 {
+    font-size: 80px;
+  }
+  
+  .not-found h2 {
+    font-size: 30px;
+  }
+ }

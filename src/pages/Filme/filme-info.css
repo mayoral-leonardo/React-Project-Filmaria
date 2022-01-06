@@ -31,12 +31,15 @@
   margin-top: 15px;
   cursor: pointer;
   border-radius: 5px;
-  border: 0;
+  border: solid 2px;
+  border-color: #6D1F76;
   font-size: 20px;
   outline: none;
   padding: 12px;
   transition: all 0.5s;
   font-weight: bold;
+  background-color: #2fb5cc;
+  color: #000000;
 }
 
 .filme-info button:hover{

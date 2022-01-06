@@ -29,3 +29,12 @@ header {
   padding: 0.3125rem;
   font-weight: bold;
 }
+
+.logo:hover {
+  filter: brightness(80%);
+}
+
+.favoritos:hover {
+  color: #6D1F76;
+  filter: brightness(80%);
+}

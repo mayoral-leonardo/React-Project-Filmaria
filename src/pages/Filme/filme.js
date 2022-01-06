@@ -56,12 +56,12 @@ export default function Filme() {
       <p>{filme.sinopse}</p>
 
       <div className='botoes'>
-        <button onClick={()=>salvaFilme()}>Salvar</button>
-        <button>
-          <a target="blank" href={`https://youtube.com/results?search_query=${filme.nome} Trailer`}>
+        <button onClick={() => salvaFilme()}>Salvar</button>
+        <a target="blank" href={`https://youtube.com/results?search_query=${filme.nome} Trailer`}>
+          <button>
             Trailer
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </div>
   )

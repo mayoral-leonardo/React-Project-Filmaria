@@ -8,6 +8,7 @@
 
 .lista-filmes {
   margin: 15px;
+  margin-top: 0;
 }
 
 .lista-filmes article {
@@ -99,5 +100,17 @@
   }
   .lista-filmes article a {
     font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .lista-filmes img {
+    width: 300px;
+  }
+  .article-title h1 {
+    font-size: 15px;
+  }
+  .lista-filmes article a {
+    font-size: 15px;
   }
 }

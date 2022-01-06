@@ -61,6 +61,12 @@
 
 @media screen and (max-width: 500px) {
   .filme-info {
-    max-width: 400px;
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .filme-info {
+    max-width: 300px;
   }
 }
